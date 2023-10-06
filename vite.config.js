@@ -9,7 +9,7 @@ export default defineConfig({
     // Get rid of the CORS error
     proxy: {
       "/api": {
-        target: "https://mern-chat-6fu2.onrender.com",
+        target: "https://mern-chat-6fu2.onrender.com/",
         changeOrigin: true,
         secure: false,
       },
