@@ -8,11 +8,7 @@ export default defineConfig({
     port: 3000,
     // Get rid of the CORS error
     proxy: {
-      "/api": {
-        target: "https://mern-chat-6fu2.onrender.com/",
-        changeOrigin: true,
-        secure: false,
-      },
+      "/api": "https://mern-chat-6fu2.onrender.com",
     },
   },
 });
