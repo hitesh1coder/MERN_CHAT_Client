@@ -3,3 +3,8 @@
   to = "https://mern-chat-6fu2.onrender.com"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
